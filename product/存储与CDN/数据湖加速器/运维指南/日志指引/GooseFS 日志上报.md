@@ -62,7 +62,7 @@ output.elasticsearch:
 ./goosefs-filebeat -c filebeat.yml
 ```
 filebeat 启动完成之后，会实时采集 GooseFS 服务产生的日志上报到 ES 平台，通过 ES 平台可以查看具体上报的日志信息，如下图：
-![](https://qcloudimg.tencent-cloud.cn/raw/d3cdb79100fb3276024bc62028fad0cc.png)
+![](https://qcloudimg.tencent-cloud.cn/raw/485e670cdc4360d52397919140a6cd3a.png)
 
 ### GooseFS 上报日志到 CLS
 #### 创建 CLS 主题
@@ -113,7 +113,7 @@ output.kafka:
 ./goosefs-filebeat -c filebeat.yml
 ```
 filebeat 启动完成之后，会实时采集 GooseFS 服务产生的日志上报到 CLS 平台，通过 CLS 平台可以查看具体上报的日志信息，如下图：
-![](https://qcloudimg.tencent-cloud.cn/raw/1fd4a7fa6bec082372d5a4804fbc92a9.png)
+![](https://qcloudimg.tencent-cloud.cn/raw/6e1110050db635fe8523fa0d4bf76255.png)
 
 ### 开启 GooseFS 审计日志上报
 如果需要上报 GooseFS 服务的审计日志，需要开启审计日志配置，操作如下：
